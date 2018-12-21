@@ -1,0 +1,8 @@
+module Click_LightRanger_3_config
+
+include Click_LightRanger_3_types
+
+const
+    _LIGHTRANGER3_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.
